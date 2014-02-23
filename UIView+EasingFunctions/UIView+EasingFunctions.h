@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef CGFloat (*ViewEasingFunctionPointerType)(CGFloat);
+typedef float (*ViewEasingFunctionPointerType)(float);
 
 /**
  Allows to assign custom [easing functions](http://easings.net/) to the animatable `UIView` properties.
